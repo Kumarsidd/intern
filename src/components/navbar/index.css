@@ -1,0 +1,29 @@
+
+.navbar{
+    padding: 2rem 4rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.topNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+   width: 200px;
+    height: 55px;
+    background-color: grey;
+}
+
+input{
+    display: flex;
+    outline: none;
+    border: none;
+    border-left: 3px solid red;
+    padding: 0 10px;
+}
+
+.searchBar{
+    color: white;
+}
