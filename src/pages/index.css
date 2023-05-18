@@ -6,10 +6,3 @@ section {
     background-size: cover;
     height: 90vh;
 }
-
-@media (max-width: 480px) {
-    section {
-        background-position: top;
-        background-size: 380px 505px;
-    }
-}

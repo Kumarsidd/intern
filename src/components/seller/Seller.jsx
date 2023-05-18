@@ -32,6 +32,91 @@ const Seller = () => {
             <p> $ 150</p>
           </div>
         </div>
+        <div className="product">
+          <div className="productimg">
+            <img src={image1} alt="nav" className="productImage" />
+          </div>
+          <div className="productInfo">
+            <div className="stars">
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <span>1 review</span>
+            </div>
+            <h3>CLARTAIAS EST TEAM</h3>
+            <p> $ 150</p>
+          </div>
+        </div>
+        <div className="product">
+          <div className="productimg">
+            <img src={image1} alt="nav" className="productImage" />
+          </div>
+          <div className="productInfo">
+            <div className="stars">
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <span>1 review</span>
+            </div>
+            <h3>CLARTAIAS EST TEAM</h3>
+            <p> $ 150</p>
+          </div>
+        </div>
+        <div className="product">
+          <div className="productimg">
+            <img src={image1} alt="nav" className="productImage" />
+          </div>
+          <div className="productInfo">
+            <div className="stars">
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <span>1 review</span>
+            </div>
+            <h3>CLARTAIAS EST TEAM</h3>
+            <p> $ 150</p>
+          </div>
+        </div>
+        <div className="product">
+          <div className="productimg">
+            <img src={image1} alt="nav" className="productImage" />
+          </div>
+          <div className="productInfo">
+            <div className="stars">
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <span>1 review</span>
+            </div>
+            <h3>CLARTAIAS EST TEAM</h3>
+            <p> $ 150</p>
+          </div>
+        </div>
+        <div className="product">
+          <div className="productimg">
+            <img src={image1} alt="nav" className="productImage" />
+          </div>
+          <div className="productInfo">
+            <div className="stars">
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <FaStar className="yellow" />
+              <span>1 review</span>
+            </div>
+            <h3>CLARTAIAS EST TEAM</h3>
+            <p> $ 150</p>
+          </div>
+        </div>
       </div>
     </main>
   );

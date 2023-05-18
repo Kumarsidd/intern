@@ -160,7 +160,7 @@ input::placeholder {
 
   .searchBar {
     margin-right: 10px;
-    margin-left: 239px;
+    margin-left: auto;
   }
 
   .mobile-toggle {
