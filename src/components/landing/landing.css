@@ -1,11 +1,14 @@
+.land {
+    padding: 0 5rem;
+}
+
 .landing {
     color: white;
-    padding: 0 5rem;
     margin-top: 10rem;
 }
 
 .content>h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .content>p {
@@ -40,4 +43,19 @@
     background-color: gray;
     border-radius: 50%;
     padding: 10px;
+}
+
+/* col */
+
+
+
+@media (max-width: 768px) {
+    .landing {
+        margin-top: 4rem;
+        /* Adjust the top margin for mobile view */
+    }
+
+    .land {
+        padding: 0 1rem;
+    }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./landing.css";
 const Landing = () => {
   return (
-    <>
+    <main className="land">
       <main className="landing">
         <div className="content">
           <h1>EXPERIENCE THE POWER WITHIN</h1>
@@ -17,8 +17,7 @@ const Landing = () => {
           </button>
         </div>
       </main>
-      <main></main>
-    </>
+    </main>
   );
 };
 
