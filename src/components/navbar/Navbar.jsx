@@ -11,15 +11,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="topNav">
+      <div className={`topNav ${isMobileMenuOpen ? "mobile-hide" : ""}`}>
         <div className="logo"></div>
-        <div className={`search ${isMobileMenuOpen ? "mobile-hide" : ""}`}>
+        <div className="search">
           <input
             type="search"
-            className={`search-input ${isMobileMenuOpen ? "mobile-hide" : ""}`}
+            className="search-input"
             placeholder="Search entire store here..."
           />
-          {!isMobileMenuOpen && <FaSearch className="searchBar" />}
+          <FaSearch className="searchBar" />
         </div>
       </div>
       <div className={`navContent ${isMobileMenuOpen ? "mobile-open" : ""}`}>
@@ -44,10 +44,17 @@ const Navbar = () => {
           <ul className="content">
             <li className="mobile-toggle" onClick={handleMobileMenuToggle}>
               <FaBars />
-              <FaSearch className="searchBar" />
-              <FaShoppingBag />
+              <FaSearch
+                className={`searchBar desk ${
+                  isMobileMenuOpen ? "mobile-hide" : ""
+                }`}
+              />
+              <FaShoppingBag
+                className={` desk ${isMobileMenuOpen ? "mobile-hide" : ""}`}
+              />
             </li>
             <li>
+              <FaShoppingBag />
               <span className="cart-count">2</span>
             </li>
           </ul>

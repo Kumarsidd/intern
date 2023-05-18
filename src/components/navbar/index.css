@@ -88,20 +88,21 @@ input{
   right: -2px;
 }
 
-/* Existing CSS code */
+.desk{
+    display: none;
+}
 
 /* Existing CSS code */
 
-/* Add the following CSS code at the end */
 
 @media (max-width: 768px) {
   .topNav {
-    padding: 0;
+    display: none;
   }
 
-  .search-input.mobile-hide,
-  .searchBar.mobile-hide {
-    display: none;
+  .desk{
+    display: block;
+    color: white;
   }
 
   .navContent {
@@ -159,7 +160,11 @@ input{
     margin-right: 10px;
   }
 
-  .search-input.mobile-hide {
+  .search-input {
+    display: none;
+  }
+
+  .mobile-hide {
     display: none;
   }
 }
