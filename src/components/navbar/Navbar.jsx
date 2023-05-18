@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaSearch, FaBars, FaShoppingBag } from "react-icons/fa";
-import "./index.css";
+import "./navbar.css";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -1,0 +1,179 @@
+li {
+  list-style: none;
+}
+
+.topNav {
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(34, 35, 43, 0.5);
+
+}
+
+.logo {
+  width: 200px;
+  height: 55px;
+  background-color: grey;
+}
+
+input {
+  display: flex;
+  outline: none;
+  border: none;
+  border-left: 3px solid red;
+  padding: 8px 10px;
+  background: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  color: white;
+  margin-left: 20px;
+}
+
+.navContent {
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  background: #22232B;
+  /* padding-block: 20px; */
+}
+
+.listNav {
+  display: flex;
+}
+
+.listNav>li {
+  padding: 15px 25px;
+  margin-right: 40px;
+}
+
+.listNav>li>a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.active {
+  background-color: red;
+}
+
+.rightNav>.content {
+  display: flex;
+  color: white;
+  font-size: larger;
+}
+
+.content>li {
+  padding: 15px 0px;
+  padding-right: 20px;
+}
+
+.cart-count {
+  background-color: white;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+}
+
+.rightNav>.content>li:nth-child(2) {
+  position: relative;
+}
+
+.rightNav>.content>li:nth-child(2) .cart-count {
+  position: absolute;
+  top: 0px;
+  right: -2px;
+}
+
+.desk {
+  display: none;
+}
+
+/* Existing CSS code */
+
+
+@media (max-width: 768px) {
+  .topNav {
+    display: none;
+  }
+
+  .desk {
+    display: block;
+    color: white;
+  }
+
+  .navContent {
+    flex-direction: column-reverse;
+  }
+
+  .listNav.mobile-open {
+    display: block;
+  }
+
+  .listNav {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+  .rightNav {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .content>li.mobile-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .listNav>li {
+    margin-right: 0;
+  }
+
+  .content>li:not(.mobile-toggle) {
+    display: none;
+  }
+
+  .content.mobile-open>li:not(.mobile-toggle) {
+    display: flex;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navContent {
+    padding: 0;
+  }
+
+  .searchBar {
+    margin-right: 10px;
+  }
+
+  .mobile-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .search-input {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
