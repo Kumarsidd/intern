@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaSearch, FaBars, FaShoppingBag } from "react-icons/fa";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,9 +32,7 @@ const Navbar = () => {
             <a href="/#">Shop</a>
           </li>
           <li>
-            <Link>
-              <a href="/#">Featured</a>
-            </Link>
+            <a href="/#">Featured</a>
           </li>
           <li>
             <a href="/#">Layouts</a>
