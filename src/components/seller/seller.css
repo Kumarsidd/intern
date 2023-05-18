@@ -37,19 +37,18 @@
 .products {
     display: flex;
     justify-content: center;
+
     margin-top: 2rem;
     flex-wrap: wrap;
-    /* Added to wrap products to next row */
 }
 
 .product {
     flex: 0 0 30%;
-    /* Adjusted to 30% to fit 3 columns */
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin-bottom: 2rem;
-    /* Added to create spacing between rows */
+    border: none;
 }
 
 .productInfo {

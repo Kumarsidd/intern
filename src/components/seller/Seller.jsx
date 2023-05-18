@@ -15,7 +15,7 @@ const Seller = () => {
         <p>Nam liber tempor cum soluta nobis eleifend option congue.</p>
       </div>
       <div className="products">
-        <div className="product">
+        <div className="product pro1">
           <div className="productimg">
             <img src={image1} alt="nav" className="productImage" />
           </div>
@@ -32,7 +32,7 @@ const Seller = () => {
             <p> $ 150</p>
           </div>
         </div>
-        <div className="product">
+        <div className="product pro1">
           <div className="productimg">
             <img src={image1} alt="nav" className="productImage" />
           </div>
@@ -49,7 +49,7 @@ const Seller = () => {
             <p> $ 150</p>
           </div>
         </div>
-        <div className="product">
+        <div className="product pro1">
           <div className="productimg">
             <img src={image1} alt="nav" className="productImage" />
           </div>
