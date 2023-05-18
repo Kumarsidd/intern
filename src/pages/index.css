@@ -10,6 +10,6 @@ section {
 @media (max-width: 480px) {
     section {
         background-position: top;
-        background-size: 320px 505px;
+        background-size: 380px 505px;
     }
 }
