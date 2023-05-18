@@ -81,4 +81,18 @@
         /* Decrease the font size further for smaller screens */
     }
 
+    .contentImage {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .imageSize {
+        width: 150px;
+        height: auto;
+    }
+
+    .mainImage {
+        width: 100%;
+        height: 200px;
+    }
 }
