@@ -171,10 +171,8 @@
 
 @media screen and (max-width: 680px) {
     .cards {
-        justify-content: space-evenly;
-        margin: 25px;
-        padding-bottom: 15px;
-
+        margin: 0;
+        margin-bottom: 2rem;
 
     }
 
@@ -199,13 +197,13 @@
     }
 
     .card {
-        width: 100px;
+        width: 126px;
         height: 196px;
-        margin: 20px 0px;
+        margin: 32px 0px;
     }
 
     .cardImg {
-        width: 98px;
+        width: 124px;
         height: 100px;
         background: #EEEEEE;
         border-radius: 15px 15px 0px 0px;
@@ -262,14 +260,16 @@
     }
 
     .arrivalBTN {
-        display: block;
+        display: flex;
         background: #B4B2B2;
         margin-top: 25px;
-        padding: 5px 12px;
+        padding: 9px 15px;
         border: 1px solid transparent;
         /* border-radius: 20px; */
         font-weight: bold;
-        font-size: 12px;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
     }
 
     .arrivalBTN>span {

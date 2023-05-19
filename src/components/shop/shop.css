@@ -153,6 +153,79 @@
 
     .itemss {
         grid-template-columns: repeat(2, 1fr);
+        /* margin-left: 2rem; */
     }
+
+    .option {
+        display: none;
+    }
+
+    .container {
+        margin-top: -5rem;
+    }
+
+    .icons>span {
+        font-size: 9.5px;
+    }
+
+}
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons>* {
+    margin-right: 10px;
+}
+
+.sortText {
+    display: none;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Adjust the gap between cards as needed */
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .sort {
+        flex: 0 0 25%;
+    }
+
+    .sortText {
+        display: flex;
+        align-items: center;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+        /* Adjust the number of columns for larger screens */
+    }
+
+    .card {
+        margin-left: 1rem;
+    }
+
+
 
 }
