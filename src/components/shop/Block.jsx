@@ -3,12 +3,12 @@ import React from "react";
 function Block(props) {
   return (
     <div className="block">
-      <h3>{props.title}</h3>
       <ul>
+        <h3>{props.title}</h3>
         {props.list.map((item, index) => {
           return (
             <li className="item">
-              <div>
+              <div className="line">
                 <input
                   type="checkbox"
                   id={props.type + index}

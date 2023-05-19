@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaSearch, FaBars, FaShoppingBag } from "react-icons/fa";
 import "./navbar.css";
-// import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,20 +25,20 @@ const Navbar = () => {
       </div>
       <div className={`navContent ${isMobileMenuOpen ? "mobile-open" : ""}`}>
         <ul className={`listNav ${isMobileMenuOpen ? "mobile-open" : ""}`}>
-          <li className="active">
-            <a href="/#">Home</a>
+          <li className="active2">
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="/#">Shop</a>
+            <NavLink to="/shop">Shop</NavLink>
           </li>
           <li>
-            <a href="/#">Featured</a>
+            <NavLink to="/nomatch">Featured</NavLink>
           </li>
           <li>
-            <a href="/#">Layouts</a>
+            <NavLink to="/nomatch">Layouts</NavLink>
           </li>
           <li>
-            <a href="/#">Page</a>
+            <NavLink to="/nomatch">Page</NavLink>
           </li>
         </ul>
         <div className="rightNav">
