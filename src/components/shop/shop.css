@@ -105,16 +105,30 @@
     margin-left: 10px;
 }
 
-.item,
-{
-display: flex;
-flex-direction: column;
+/* item */
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .itemImage {
-    width: 150px;
+    width: 50%;
     height: auto;
 }
+
+.itemInfo {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /* media */

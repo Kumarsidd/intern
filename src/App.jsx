@@ -7,8 +7,8 @@ import Shop from "./pages/Shop";
 const App = () => {
   return (
     <>
-      <Home />
-      {/* <Shop /> */}
+      {/* <Home /> */}
+      <Shop />
     </>
   );
 };
