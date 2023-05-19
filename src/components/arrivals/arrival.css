@@ -12,7 +12,7 @@
 .arrivalHead1{
     text-align: center;
     font-size: 15px;
-    padding: .53px 70px;
+    padding: .53px 60px;
     margin-top: 10px;
     display: none;
 }
@@ -158,10 +158,19 @@
     font-weight: bold;
 }
 
+.cardContent hr{
+    border-color: #fffdf7;
+    opacity: 0.3;
+    width: 90%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0;
+}
 @media screen and (max-width: 680px) {
     .cards {
         justify-content:space-evenly;
         margin: 25px;
+        padding-bottom: 15px;
       
 
     }
@@ -210,13 +219,13 @@
         width: 198px;
         height: 223px;
         border-radius: 0px 0px 15px 15px;
-        padding-left: 15px;
+        padding-left: 0px;
     }
 
     .review {
         display: flex;
         align-items: center;
-        font-size: 3px;
+        font-size:8px;
         padding: 6px 0px;
     }
     
@@ -229,5 +238,65 @@
         color: #F4FF00;
         size: 3px;
     }
+    .cardContent h1{
+        font-size: 8px;
+        width: 50%;
+    }
 
+    .prices {
+    display: flex;
+    margin-top: 5px;
+        width: 5px;
+    height: 12px;
+}
+
+.arrivalBTN {
+    display: block;
+    background: #B4B2B2;
+    margin-top: 25px;
+    padding: 5px 2px;
+    border: 1px solid transparent;
+    /* border-radius: 20px; */
+    font-weight: bold;
+}
+.price1 {
+    background: #FFD11B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 25px;
+   
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.price2 {
+    color: red;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.price3 {
+    color: #6C6F7A;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cardContent hr {
+    width: 50%;
+    margin-bottom: "0px";
+} 
 }

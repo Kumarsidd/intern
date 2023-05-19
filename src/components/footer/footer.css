@@ -118,6 +118,7 @@ p {
    .legal .legal__links {
       margin-left: auto;
    }
+   
 }
 
 @media screen and (min-width: 40.375em) {
@@ -136,4 +137,21 @@ p {
    .footer__nav {
       flex: 2 0px;
    }
+  
+
+
+}
+@media  (max-width: 768px){
+   .about{
+      display: none;
+   }
+   .nav__item {
+display: none;
+   }
+   .footer__nav {
+   
+   
+   margin-bottom: 3px;
+}
+
 }

@@ -16,6 +16,7 @@ export default function Footer() {
     <footer className="footer">
       <ul className="footer__nav">
         <li className="nav__item">
+          <div className="about">
           <h1 className="">About us</h1>
           <p>
             Lorem ipsum dolor sit amet, <br />
@@ -23,7 +24,8 @@ export default function Footer() {
             Mauris aliquet lacinia nulla ut laoreet.
             <br /> Quisque ultricies et tortor nec laoreet.
           </p>
-          <div classNameName="icons">
+          </div>
+          <div className="icons">
             <FaInstagram className="icon" />
             <FaFacebook className="icon" />
             <FaSkype className="icon" />

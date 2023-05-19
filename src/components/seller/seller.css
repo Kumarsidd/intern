@@ -119,6 +119,8 @@
     .seller {
         height: auto;
         padding: 1rem;
+    
+        
     }
 
     .productInfo>.stars {
@@ -143,4 +145,32 @@
         margin-bottom: 1rem;
         /* Adjusted spacing between rows */
     }
+    .seller>.heading {
+        margin-top: 1rem;
+        text-align: center;
+        color: white;
+    }
+
+    .products {
+                display: flex;
+        align-items: flex-start;
+        justify-content:space-between;
+        height: 30%;
+        
+    }
+    .productimg{
+        margin: 2;
+        width: 40px;
+    }
+
+    .product1{
+        display: none;
+    }
+  
+    .heading p{
+        font-size: 8px;
+    }
+
+  
+    
 }

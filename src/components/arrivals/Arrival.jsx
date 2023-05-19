@@ -18,7 +18,7 @@ const Arrival = () => {
           <AiFillStar /> NEW ARRIVALS <AiFillStar />
         </h1>
         <h1 className="arrivalHead1">
-          <AiFillStar /> NEW PRODUCTS <AiFillStar />
+          <AiFillStar /> OUR PRODUCTS <AiFillStar />
         </h1>
         <p className="arrivalPara">
           Claritas est etiam processus dynamicus, qui sequitur mutationem
@@ -38,27 +38,9 @@ const Arrival = () => {
                 <AiOutlineStar />
                 <span>No review</span>
               </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+             <hr />
               <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+              <hr />
               <div className="prices">
                 <p className="price1">-33%</p>
                 <p className="price2">
@@ -89,27 +71,9 @@ const Arrival = () => {
                 <AiOutlineStar />
                 <span>1 review</span>
               </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+              <hr />
               <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+             <hr />
               <div className="prices">
                 <p className="price1">-33%</p>
                 <p className="price2">
@@ -140,27 +104,9 @@ const Arrival = () => {
                 <AiOutlineStar />
                 <span>No review</span>
               </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+             <hr />
               <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+              <hr />
               <div className="prices">
                 <p className="price1">-33%</p>
                 <p className="price2">
@@ -191,27 +137,9 @@ const Arrival = () => {
                 <AiOutlineStar />
                 <span>No review</span>
               </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+              <hr />
               <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
+             <hr />
               <div className="prices">
                 <p className="price1">-33%</p>
                 <p className="price2">
