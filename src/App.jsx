@@ -8,10 +8,10 @@ const App = () => {
   return (
     <>
       {/* <Home /> */}
-      <Shop />
+      {/* <Shop /> */}
       <Router>
         <Home />
-        <Shop />
+        {/* <Shop /> */}
       </Router>
     </>
   );
