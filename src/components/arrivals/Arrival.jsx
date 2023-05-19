@@ -38,7 +38,7 @@ const Arrival = () => {
                 <AiOutlineStar />
                 <span>No review</span>
               </div>
-             <hr />
+              <hr />
               <h1>Claritas est etiam processus</h1>
               <hr />
               <div className="prices">
@@ -54,7 +54,7 @@ const Arrival = () => {
               </div>
               <button className="arrivalBTN">
                 <AiOutlineShoppingCart />
-                ADD TO CART
+                <span>ADD TO CART</span>
               </button>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Arrival = () => {
               </div>
               <hr />
               <h1>Claritas est etiam processus</h1>
-             <hr />
+              <hr />
               <div className="prices">
                 <p className="price1">-33%</p>
                 <p className="price2">
@@ -87,7 +87,7 @@ const Arrival = () => {
               </div>
               <button className="arrivalBTN">
                 <AiOutlineShoppingCart />
-                ADD TO CART
+                <span>ADD TO CART</span>
               </button>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Arrival = () => {
                 <AiOutlineStar />
                 <span>No review</span>
               </div>
-             <hr />
+              <hr />
               <h1>Claritas est etiam processus</h1>
               <hr />
               <div className="prices">
@@ -120,7 +120,7 @@ const Arrival = () => {
               </div>
               <button className="arrivalBTN">
                 <AiOutlineShoppingCart />
-                ADD TO CART
+                <span>ADD TO CART</span>
               </button>
             </div>
           </div>
@@ -139,7 +139,7 @@ const Arrival = () => {
               </div>
               <hr />
               <h1>Claritas est etiam processus</h1>
-             <hr />
+              <hr />
               <div className="prices">
                 <p className="price1">-33%</p>
                 <p className="price2">
@@ -153,7 +153,7 @@ const Arrival = () => {
               </div>
               <button className="arrivalBTN">
                 <AiOutlineShoppingCart />
-                ADD TO CART
+                <span>ADD TO CART</span>
               </button>
             </div>
           </div>
