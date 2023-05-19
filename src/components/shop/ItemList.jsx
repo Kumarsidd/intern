@@ -40,7 +40,7 @@ function ItemList() {
           </div>
         </div>
       </div>
-      <div className="cards">
+      <div className="itemss">
         <div className="card">
           <div className="cardImg">
             <img src={img1} alt="img" />
