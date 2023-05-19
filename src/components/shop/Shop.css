@@ -1,0 +1,172 @@
+.shopping {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.category {
+    width: 20%;
+}
+
+.option {
+    border: 2px solid #EFEFEF;
+    border-radius: 4px;
+    margin-left: 50px;
+    padding: 15px;
+}
+
+
+.block>h3 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-top: 18px;
+}
+
+
+.block>ul {
+    margin: 15px;
+}
+
+.item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #6C6F7A;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+
+.item>div {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+.shopList {
+    width: 80%;
+}
+
+.shopCont {
+    border: 2px solid #EFEFEF;
+    width: 75%;
+    margin-right: 15px;
+}
+
+.feature {
+    width: 95%;
+    height: 40px;
+    margin: 10px 20px;
+    background-color: violet;
+}
+
+.shopList {
+    width: 100%;
+}
+
+.shopCards {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 5px;
+
+}
+
+.shopCard {
+    width: 269.98px;
+    height: 501.75px;
+    border: 2px solid #c7cbd9;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.shopCardImg {
+    width: 269.98px;
+    height: 270px;
+    background: #EEEEEE;
+    border-radius: 15px 15px 0px 0px;
+    padding: 51px 65.98px 51px 66px;
+}
+
+.shopCardImg>img {
+    width: 134px;
+    height: 168px;
+}
+
+.shopCardContent {
+    width: 269.98px;
+    height: 231.75px;
+    border-radius: 0px 0px 15px 15px;
+    padding-left: 15px;
+}
+
+.review {
+    font-size: 15px;
+    padding: 15px 0px;
+}
+
+.review>svg {
+    color: #F4FF00;
+}
+
+.shopCardContent>h1 {
+    height: 17.6px;
+    font-size: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.loadCont {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.loadBtn {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 44px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid transparent;
+    border-radius: 35px;
+
+}
+
+@media screen and (max-width: 680px) {
+    .shopCards {
+        justify-content: space-evenly;
+    }
+
+    .shopCard {
+        margin: 15px 0;
+    }
+
+    .shopping {
+
+        justify-content: space-evenly;
+    }
+
+}
