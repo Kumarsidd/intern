@@ -62,9 +62,13 @@ input::placeholder {
   font-size: small;
 }
 
-.active2 {
+.listNav>li:hover {
   background-color: red;
 }
+
+/* .active2 {
+  background-color: red;
+} */
 
 .rightNav>.content {
   display: flex;
