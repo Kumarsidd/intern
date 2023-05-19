@@ -17,6 +17,9 @@ const Arrival = () => {
         <h1 className="arrivalHead">
           <AiFillStar /> NEW ARRIVALS <AiFillStar />
         </h1>
+        <h1 className="arrivalHead1">
+          <AiFillStar /> NEW PRODUCTS <AiFillStar />
+        </h1>
         <p className="arrivalPara">
           Claritas est etiam processus dynamicus, qui sequitur mutationem
           consuetudium lectorum.

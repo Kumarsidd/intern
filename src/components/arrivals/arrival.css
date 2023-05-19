@@ -9,10 +9,21 @@
     margin-top: 100px;
 
 }
+.arrivalHead1{
+    text-align: center;
+    font-size: 15px;
+    padding: .53px 70px;
+    margin-top: 10px;
+    display: none;
+}
 
 .arrivalHead>svg {
     color: red;
     font-size: 28px;
+}
+.arrivalHead1>svg {
+    color: red;
+    font-size: 18px;
 }
 
 .arrivalPara {
@@ -149,8 +160,74 @@
 
 @media screen and (max-width: 680px) {
     .cards {
-        justify-content: space-evenly;
+        justify-content:space-evenly;
+        margin: 25px;
+      
 
+    }
+    .arrivalHead{
+        display: none;
+    }
+    .arrivalHead1{
+        display: inline-block;
+
+    }
+
+    .arrivalContainer {
+        margin: 10px ;
+    }
+
+    .arrivalPara {
+        text-align: center;
+        margin: 15px 10px 0px 10px;
+        font-size: 6px;
+    
+    }
+    .card {
+        width: 100px;
+        height: 196px;
+        margin: 20px 0px;
+    }
+
+    .cardImg {
+        width: 98px;
+        height: 100px;
+        background: #EEEEEE;
+        border-radius: 15px 15px 0px 0px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cardImg img {
+        max-width: 60%;
+        max-height: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .cardContent {
+        width: 198px;
+        height: 223px;
+        border-radius: 0px 0px 15px 15px;
+        padding-left: 15px;
+    }
+
+    .review {
+        display: flex;
+        align-items: center;
+        font-size: 3px;
+        padding: 6px 0px;
+    }
+    
+    .review>span {
+        margin-left: 8px;
+        font-size: 10px;
+    }
+    
+    .review>svg {
+        color: #F4FF00;
+        size: 3px;
     }
 
 }
