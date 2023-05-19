@@ -1,7 +1,7 @@
 import React from "react";
-import Category from "../components/Shop/Category";
-import ItemList from "../components/Shop/ItemList";
-import "../components/Shop/Shop.css";
+import Category from "../components/shop/Category";
+import ItemList from "../components/shop/ItemList";
+import "../components/shop/shop.css";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 

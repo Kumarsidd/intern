@@ -105,18 +105,11 @@
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
-.item
-{
-display: flex;
-flex-direction: column;
-=======
 .item {
     display: flex;
     flex-direction: column;
->>>>>>> c8d6d2657ed8a59144fde5685bf11f968b6560ee
 }
-    
+
 .itemImage {
     width: 150px;
     height: auto;
