@@ -9,7 +9,8 @@
     margin-top: 100px;
 
 }
-.arrivalHead1{
+
+.arrivalHead1 {
     text-align: center;
     font-size: 15px;
     padding: .53px 60px;
@@ -21,6 +22,7 @@
     color: red;
     font-size: 28px;
 }
+
 .arrivalHead1>svg {
     color: red;
     font-size: 18px;
@@ -158,7 +160,7 @@
     font-weight: bold;
 }
 
-.cardContent hr{
+.cardContent hr {
     border-color: #fffdf7;
     opacity: 0.3;
     width: 90%;
@@ -166,32 +168,36 @@
     margin-top: 10px;
     margin-left: 0;
 }
+
 @media screen and (max-width: 680px) {
     .cards {
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         margin: 25px;
         padding-bottom: 15px;
-      
+
 
     }
-    .arrivalHead{
+
+    .arrivalHead {
         display: none;
     }
-    .arrivalHead1{
+
+    .arrivalHead1 {
         display: inline-block;
 
     }
 
     .arrivalContainer {
-        margin: 10px ;
+        margin: 10px;
     }
 
     .arrivalPara {
         text-align: center;
         margin: 15px 10px 0px 10px;
         font-size: 6px;
-    
+
     }
+
     .card {
         width: 100px;
         height: 196px;
@@ -208,7 +214,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .cardImg img {
         max-width: 60%;
         max-height: 100%;
@@ -225,78 +231,91 @@
     .review {
         display: flex;
         align-items: center;
-        font-size:8px;
+        font-size: 8px;
         padding: 6px 0px;
+        margin-left: 10px;
     }
-    
+
     .review>span {
         margin-left: 8px;
         font-size: 10px;
     }
-    
+
     .review>svg {
         color: #F4FF00;
         size: 3px;
     }
-    .cardContent h1{
+
+    .cardContent h1 {
         font-size: 8px;
         width: 50%;
+        font-size: 8px;
+        margin-left: 10px;
     }
 
     .prices {
-    display: flex;
-    margin-top: 5px;
+        display: flex;
+        margin-top: 5px;
         width: 5px;
-    height: 12px;
-}
+        height: 12px;
+        margin-left: 10px;
+    }
 
-.arrivalBTN {
-    display: block;
-    background: #B4B2B2;
-    margin-top: 25px;
-    padding: 5px 2px;
-    border: 1px solid transparent;
-    /* border-radius: 20px; */
-    font-weight: bold;
-}
-.price1 {
-    background: #FFD11B;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 25px;
-   
-    padding: 3px;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-.price2 {
-    color: red;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 20px;
-    margin-right: 5px;
-    display: flex;
-    align-items: center;
-}
+    .arrivalBTN {
+        display: block;
+        background: #B4B2B2;
+        margin-top: 25px;
+        padding: 5px 2px;
+        border: 1px solid transparent;
+        /* border-radius: 20px; */
+        font-weight: bold;
+        font-size: 12px;
+    }
 
-.price3 {
-    color: #6C6F7A;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 8px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-}
+    .arrivalBTN>span {
+        margin-left: 5px;
+        font-size: 8px;
+    }
 
-.cardContent hr {
-    width: 50%;
-    margin-bottom: "0px";
-} 
+    .price1 {
+        background: #FFD11B;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 25px;
+
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .price2 {
+        color: red;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 20px;
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .price3 {
+        color: #6C6F7A;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 8px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .cardContent hr {
+        width: 50%;
+        margin-bottom: "0px";
+    }
 }

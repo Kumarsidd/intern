@@ -105,9 +105,10 @@
     margin-left: 10px;
 }
 
-.item {
-    display: flex;
-    flex-direction: column;
+.item,
+{
+display: flex;
+flex-direction: column;
 }
 
 .itemImage {
