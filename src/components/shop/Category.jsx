@@ -4,9 +4,9 @@ function Category() {
   return (
     <div className="option">
       <div className="block">
-        <h3>Categories</h3>
         <ul>
-          <li className="item">
+          <h3>Categories</h3>
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -17,7 +17,7 @@ function Category() {
               <label for="catCheckbox1">Clothing (9 items)</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -28,7 +28,7 @@ function Category() {
               <label for="catCheckbox2">Diamond Jeweller (8 items)</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -39,7 +39,7 @@ function Category() {
               <label for="catCheckbox3">Fashion (9 items)</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -53,9 +53,9 @@ function Category() {
         </ul>
       </div>
       <div className="block">
-        <h3>Shop By Vendors</h3>
         <ul>
-          <li className="item">
+          <h3>Shop By Vendors</h3>
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -66,7 +66,7 @@ function Category() {
               <label for="vendCheckbox1">Alizey</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -77,7 +77,7 @@ function Category() {
               <label for="vendCheckbox2">Golda</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -88,7 +88,7 @@ function Category() {
               <label for="vendCheckbox3">Handa</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -99,7 +99,7 @@ function Category() {
               <label for="vendCheckbox4">T90</label>
             </div>
           </li>
-          <li className="item">
+          <li className="item line">
             <div>
               <input
                 type="checkbox"
@@ -113,8 +113,8 @@ function Category() {
         </ul>
       </div>
       <div className="block">
-        <h3>prices</h3>
         <ul>
+          <h3>Prices</h3>
           <li className="item">
             <div>
               <input

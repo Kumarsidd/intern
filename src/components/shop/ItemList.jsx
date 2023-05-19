@@ -1,482 +1,59 @@
 import React from "react";
+
 import {
-  AiFillStar,
-  AiOutlineStar,
-  AiOutlineShoppingCart,
-} from "react-icons/ai";
-import { BsCurrencyRupee, BsStarHalf } from "react-icons/bs";
-import img1 from "../../images/17 1.png";
+  FaListUl,
+  FaGripHorizontal,
+  FaGripVertical,
+  FaChessBoard,
+} from "react-icons/fa";
+
+import { AiFillStar, AiOutlineShoppingCart } from "react-icons/ai";
+import img1 from "../../images/13.png";
 
 function ItemList() {
   return (
-    <div className="shopCont">
-      <div className="feature"></div>
-      <div className="shopList">
-        <div className="shopCards">
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />1 review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div className="shopCard">
-            <div className="shopCardImg">
-              <img src={img1} alt="img" />
-            </div>
-            <div className="shopCardContent">
-              <div className="review">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
-                <AiOutlineStar />
-                No review
-              </div>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginBottom: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <h1>Claritas est etiam processus</h1>
-              <hr
-                style={{
-                  borderColor: "#fffdf7",
-                  opacity: "0.3",
-                  width: "90%",
-                  textAlign: "left",
-                  marginTop: "10px",
-                  marginLeft: 0,
-                }}
-              ></hr>
-              <div className="prices">
-                <p className="price1">-33%</p>
-                <p className="price2">
-                  <BsCurrencyRupee />
-                  100
-                </p>
-                <p className="price3">
-                  <BsCurrencyRupee />
-                  150
-                </p>
-              </div>
-              <button className="arrivalBTN">
-                <AiOutlineShoppingCart />
-                ADD TO CART
-              </button>
-            </div>
+    <main>
+      <div className="sort">
+        <div className="icons">
+          <FaGripHorizontal className="icon active1" />
+          <FaGripVertical className="icon" />
+          <FaChessBoard className="icon" />
+          <FaListUl className="icon" />
+          <span>Showing list 1 to 9 to 37 items</span>
+        </div>
+        <div className="sortText">
+          <p>
+            Show :<a href="/#">10</a>
+          </p>
+
+          <div className="sortBy">
+            <p>
+              Sort by :<a href="/#">Date, old to New</a>
+            </p>
           </div>
         </div>
       </div>
-      <div className="loadCont">
-        <button className="loadBtn">load more product</button>
+      <div className="items">
+        <div className="item">
+          <img src={img1} alt="item" className="itemImage" />
+          <div className="itemInfo">
+            <div className="stars">
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+            </div>
+            <h4>Claritas est etiam processus</h4>
+            <p>$ 150</p>
+            <button>
+              <AiOutlineShoppingCart />
+              Add to Cart
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
   );
 }
 
